@@ -5,5 +5,3 @@ def test_foo():
   b = [2, 1, 4]
   assert len(foo(a, b)) == 3
 
-if __name__ == '__main__':
-  test_foo()
