@@ -1,3 +1,3 @@
 # travis CI test
 
-https://travis-ci.org/wangzhishi/travis_example.svg?branch=master
+[![Build Status](https://travis-ci.org/wangzhishi/travis_example.svg?branch=master)](https://travis-ci.org/wangzhishi/travis_example)
