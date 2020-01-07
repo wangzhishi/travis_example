@@ -4,7 +4,9 @@ python:
 cache: pip
 install:
   - pip install -r requirements.txt
-
+env:
+  global:
+    - CODECOV_TOKEN="860f98ec-29a3-4d5a-a4d9-8c8d97b47edc"
 
 script:
   - py.test  --cov-report term --cov=./test_foo.py
