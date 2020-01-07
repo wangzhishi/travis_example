@@ -9,7 +9,7 @@ env:
     - CODECOV_TOKEN="860f98ec-29a3-4d5a-a4d9-8c8d97b47edc"
 
 script:
-  - py.test  --cov-report term --cov=./test_foo
+  - py.test  --cov-report html --cov=test_foo #--cov-report term;--cov should be a module name, not a file name;./test_foo doesn't work
 
 after_success:
   - codecov
