@@ -1,4 +1,5 @@
 from core.foo import foo
+import pytest
 def test_foo():
   a = [1, 2, 3]
   b = [2, 1, 4]
